@@ -50,6 +50,8 @@ Para simular un parqueadero realista que permita el ingreso de carros y motos, c
 En un parqueadero real, hay distintos tipos de vehículos, y es importante diferenciar cuáles están estacionados y dónde están ubicados.
 
 ¿Cómo se llevó a cabo su implementación?
+tipos_vehiculo = {"carro": "c", "moto": "m"}
+
 
 
 
