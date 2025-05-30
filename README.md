@@ -1,3 +1,3 @@
 # Parcial-3
 Mateo Trujillo
-Julian Pulido
+Julian David Pulido Junco
