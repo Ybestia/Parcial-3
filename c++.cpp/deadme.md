@@ -1,7 +1,7 @@
-
-Mateo Trujillo
 instrucciones ejecutar el codigo
 Funciones adicionales:
+1)se extrae el archivo zip
+2)instalar la aplicacion de grok
 1.Graficos:
 para que se implemento:
 Se implementó para mejorar la experiencia visual del jugador, permitiendo que el entorno, los personajes y los elementos del juego sean representados de manera clara, atractiva y de una manera comprensible.
@@ -19,3 +19,5 @@ Se implementó para dar vida a los elementos del juego y asemejarse al juego ori
 porque se considero necesario:
 las animaciones ayudan a comunicar visualmente lo que está ocurriendo en el juego y ademas ppara asemejarse al juego original
 como se implemento:
+Se implementó utilizando el motor Godot Engine, específicamente con nodos como AnimationPlayer y elementos visuales como Sprite para controlar las animaciones. Por ejemplo, para la habilidad “Garra”, se utilizó un Sprite y un AnimationPlayer que reproduce una animación al activarse el botón correspondiente. Se mostraron efectos visuales como el sprite de garras, se reprodujo la animación con play(), y se usó await para esperar a que termine antes de continuar con el flujo del combate.
+Además, se manejaron otras animaciones como el rayo, usando visibilidad y temporizadores (create_timer) para mostrar los efectos por un tiempo determinado.
