@@ -8,14 +8,17 @@ Tarifas
 Vehículo	Tarifa por minuto
 Carro	80
 Moto	40
-¿Para qué se implementó?
 
-un simulador de parqueadero que hace entender el espacios, tiempos y cobros.
+
+Soporte para Diferentes Tipos de Vehículos
+¿Para qué se implementó?
+Para simular un parqueadero realista donde pueden ingresar carros y motos
+
 ¿Por qué se consideró necesario?
-Para practicar como se usa en manejo de las listas, condiccionales y diccionarios
+para que sea mas realista de la mayoria de parqueadero que se maneja actualmente
 
 ¿Cómo se llevó a cabo su implementación?
-Se creó una matriz para representar el parqueadero, un sistema de menú para interactuar con el usuario, y registros para gestionar los datos de los vehículos, tiempos y cobros.
+Se amplió el diccionario tarifa para incluir
 
 Uso
 Ejecuta el código y sigue las opciones del menú:
