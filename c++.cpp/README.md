@@ -2,11 +2,18 @@ instrucciones ejecutar el codigo
 
 1)se extrae el archivo zip
 
-2)instalar la aplicacion de godot 4.4.1
+2)instalar la aplicacion de godot engine 4.4.1
 
-3)Darle importar archivo
+3)abrir godot engine
 
-4)seleccionar la carpeta del archivo extraido
+4)Darle importar archivo
+
+5)seleccionar la carpeta del archivo extraido
+
+6)alli abajo a la izquierda podras observar todos los elemntos incluidos los codigos los cuales terminan en gd
+solo les daras doble click y podras observarlos
+
+7)para ejecutar el juego puedes darle a la flecha en la esquina superior derecha
 
 Funciones adicionales:
 
@@ -41,3 +48,6 @@ como se implemento:
 
 Se implementó utilizando el motor Godot Engine, específicamente con nodos como AnimationPlayer y elementos visuales como Sprite para controlar las animaciones. Por ejemplo, para la habilidad “Garra”, se utilizó un Sprite y un AnimationPlayer que reproduce una animación al activarse el botón correspondiente. Se mostraron efectos visuales como el sprite de garras, se reprodujo la animación con play(), y se usó await para esperar a que termine antes de continuar con el flujo del combate.
 Además, se manejaron otras animaciones como el rayo, usando visibilidad y temporizadores (create_timer) para mostrar los efectos por un tiempo determinado.
+para su implementacion me base en los videos de Tutorial AnimationPlayer en Godot Engine. (Parte 1) https://www.youtube.com/watch?v=pXK-CotnVIM
+
+y para crear la animacion del rayo especificamente me base en la siguiente  publicacion de reddit https://www.reddit.com/r/godot/comments/15lzzgw/little_question_about_using_a_timer_in_an_await/
