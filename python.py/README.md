@@ -9,17 +9,6 @@ Vehículo	Tarifa por minuto
 Carro	80
 Moto	40
 
-
-Soporte para Diferentes Tipos de Vehículos
-¿Para qué se implementó?
-Para simular un parqueadero realista donde pueden ingresar carros y motos
-
-¿Por qué se consideró necesario?
-para que sea mas realista de la mayoria de parqueadero que se maneja actualmente
-
-¿Cómo se llevó a cabo su implementación?
-Se amplió el diccionario tarifa para incluir
-
 Uso
 Ejecuta el código y sigue las opciones del menú:
 1️⃣ Mostrar mapa
@@ -28,10 +17,28 @@ Ejecuta el código y sigue las opciones del menú:
 4️⃣ Ver estadísticas
 5️⃣ Salir
 
+ 1.  Soporte para Diferentes Tipos de Vehículos
+¿Para qué se implementó?
+Para simular un parqueadero realista donde pueden ingresar carros y motos
 
-mejoras:
-- puede ingresar carro y moto
-- cada vehiculo tiene didtintos precios
+¿Por qué se consideró necesario?
+para que sea mas realista de la mayoria de parqueadero que se maneja actualmente
+
+¿Cómo se llevó a cabo su implementación?
+Se amplió el diccionario tarifa para incluir:
+tipos_vehiculo = {"carro": "c", "moto": "m"}
+
+2.  Sistemas de Cobro Diferenciado por Vehículo
+¿Para qué se implementó?
+Para calcular el costo de parqueo de forma justa, dependiendo del tipo de vehículo y el tiempo.
+
+¿Por qué se consideró necesario?
+hay una gran diferencia entre carro y moto por lo cual tambien hay diferencia en precios
+
+¿Cómo se llevó a cabo su implementación?
+Se definió un sistema de tarifas por minuto en el diccionario tarifa
+
+
 
 herramienta de inteligencia artificial:
 
